@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+     background-color: black; 
+}
+
+
+.container .head{
+    margin: 5px;
+    display: flex; 
+ }
+.container .head img{
+width: 14%;
+z-index: 1;
+margin-left: 10px;
+margin-top: -15px;
+margin-bottom: -14px; 
+}
+
+.home-image{
+    background-image: url(assets/moneyheist22.jpeg); 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%; 
+    height: 91vh; 
+     border-radius: 20px; 
+    position: relative;
+    filter: brightness();
+}
+
+.home-image-text{
+    color: white;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+    
+}
+
+.money{
+    width: 100%;
+    height: auto; 
+}
+
+.play-botton{
+background-color: red;
+color: black; 
+border-radius: 4px;
+ width: 70px; 
+ padding: 5px 15px 5px 10px; 
+font-size: 25px;
+ margin-top: 0.8rem; 
+}
+
+.play-botton img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+position: absolute;
+    
+}
+
+
+
+
+.NO{
+display: flex;
+    overflow-y:  hidden;
+    border-radius: 20px;   
+}
+
+.NO img{
+   margin: 5px;  
+   border-radius: 15px;
+   
+
+}
+
+ h3{
+font-size:1.6rem ;
+padding-top: 18px;
+padding-bottom: 10px;
+font-weight:300;
+padding-left: 10px;
+}
+
+
+.html{
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent; 
+}
+
+.NO img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out; 
+/* transition-delay: 0.1s;  */
+    filter:brightness(70%)
+}
